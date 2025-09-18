@@ -1,1 +1,261 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Список гиперссылок и форма</title>
+    <script
+      type="text/javascript"
+      src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=7_XoRSTjTdjGta-NSsOrL2rP373VUjR7hWZeEAB04tLR7Gp-SBJ43IRqsg7ewvbV8x8Z5lNQ59YgSHjKb2qkOQ"
+      charset="UTF-8"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container textarea">
+      <div class="row">
+        <div class="col-lg-6 col-md-8 col-cm-4 mx-auto">
+          <h1 style="color: rgb(201, 172, 134)">
+            Маркированный список гиперссылок
+          </h1>
+          <h3 style="color: rgb(201, 172, 134)">
+            Выполнил Романов Никита, 22/1 группа
+          </h3>
+          <ul>
+            <li>
+              <a href="http://kubsu.ru/"
+                >Абсолютная гиперссылка на главную страницу сайта kubsu.ru</a
+              >
+            </li>
+            <li>
+              <a href="https://kubsu.ru/"
+                >Абсолютная на главную сайта kubsu.ru в протоколе https</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://psdmockup.ru/index/1146-mockup-macbook-on-a-light-background"
+                ><img
+                  src="https://psdmockup.ru/assets/image-cache/2019-12-24-osix38.4090ca16.webp"
+                  width="450"
+                  height="350"
+                  alt="Ссылка-изображение на KubSU"
+              /></a>
+            </li>
+            <li>
+              <a href="/index2.html"
+                >Сокращенная ссылка на внутреннюю страницу</a
+              >
+            </li>
+            <li><a href="/">Сокращенная ссылка на главную страницу</a></li>
+            <li>
+              <a href="#fragment">Ссылка на фрагмент текущей страницы</a>
+            </li>
+            <li>
+              <a
+                href="https://example.com/page?param1=value1&param2=value2&param3=value3"
+                >Ссылка с тремя параметрами в URL</a
+              >
+            </li>
+            <li>
+              <a href="https://example.com/page?id=123"
+                >Ссылка с параметром id в URL</a
+              >
+            </li>
+            <li>
+              <a href="current-page.html"
+                >Относительная на страницу в текущем каталоге</a
+              >
+            </li>
+            <li>
+              <a href="about/page.html"
+                >Относительная на страницу в каталоге about</a
+              >
+            </li>
+            <li>
+              <a href="../page.html"
+                >Относительная на страницу в каталоге уровнем выше текущего</a
+              >
+            </li>
+            <li>
+              <a href="../../page.html"
+                >Относительная на страницу в каталоге двумя уровнями выше</a
+              >
+            </li>
+            <li>
+              Контекстная <a href="https://example.com">ссылка</a> в тексте
+              абзаца
+            </li>
+            <li>
+              <a href="https://developer.mozilla.org/ru/docs/Web/HTML#reference"
+                >Ссылка на фрагмент страницы стороннего сайта</a
+              >
+            </li>
+            <li>
+              <img
+                src="https://psdmockup.ru/assets/image-cache/2019-12-24-osix38.4090ca16.webp"
+                alt="HTML5 Logo"
+                usemap="#htmlmap"
+                width="300"
+              />
+              <map name="htmlmap">
+                <area
+                  shape="rect"
+                  coords="0,0,150,300"
+                  href="https://en.wikipedia.org/wiki/Mockup"
+                  alt="HTML5 информация"
+                />
+                <area
+                  shape="circle"
+                  coords="225,150,75"
+                  href="https://psdmockup.ru/"
+                  alt="HTML5 спецификация"
+                  />
+              </map>
+              <div></div>
+              Нажмите в правой части значка, чтобы перейти на сайт об Мокапах, в
+              остальной области, чтобы перейти в Википедию
+            </li>
+            <li><a href="">Ссылка с пустым href</a></li>
+            <li><a>Ссылка без href</a></li>
+            <li>
+              <a href="https://example.com" rel="nofollow"
+                >Ссылка, по которой запрещен переход поисковикам</a
+              >
+            </li>
+            <li>
+              <a href="https://example.com" rel="noindex"
+                >Запрещенная для индексации поисковиками</a
+              >
+            </li>
+            <li>
+              <ol>
+                Нумерованный список
+                <li>
+                  <a href="https://example.com/1" title="Первая ссылка"
+                    >Ссылка 1</a
+                  >
+                </li>
+                <li>
+                  <a href="https://example.com/2" title="Вторая ссылка"
+                    >Ссылка 2</a
+                  >
+                </li>
+                <li>
+                  <a href="https://example.com/3" title="Третья ссылка"
+                    >Ссылка 3</a
+                  >
+                </li>
+              </ol>
+            </li>
+            <li>
+              <a href="ftp://user:password@example.com/file.txt"
+                >Ссылка на файл на сервере FTP с авторизацией</a
+              >
+            </li>
+          </ul>
 
+          <div class="fragment" id="fragment">
+            <h2 style="color: rgb(201, 172, 134)">Фрагмент страницы</h2>
+            <p style="color: rgb(201, 172, 134)">
+              Это фрагмент, на который ведет одна из ссылок выше.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container textarea">
+      <div class="row">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h2 style="color: rgb(201, 172, 134)">Форма</h2>
+
+          <form action="#" method="post">
+            <fieldset>
+              <legend class="lead text-muted">Личная информация</legend>
+
+              <label for="fio"">ФИО:*</label>
+              <input type="text" id="fio" name="fio" required style="border-style: dotted; border-color: red;"/>
+
+              <div></div>
+              <label for="phone">Телефон:*</label>
+              <input type="tel" id="phone" name="phone" required style="border-style: dotted; border-color: red;"/>
+
+              <div></div>
+              <label for="email">E-mail:*</label>
+              <input type="email" id="email" name="email" required style="border-style: dotted; border-color: red;"/>
+
+              <div></div>
+              <label for="birthdate">Дата рождения:*</label>
+              <input type="date" id="birthdate" name="birthdate" required style="border-style: dotted; border-color: red;"/>
+            </fieldset>
+
+            <fieldset>
+              <legend>Пол</legend>
+              <label>
+                <input type="radio" name="gender" value="male" required/>
+                Мужской
+              </label>
+              <label>
+                <input type="radio" name="gender" value="female" /> Женский
+              </label>
+            </fieldset>
+            <fieldset>
+              <legend>Любимый язык программирования</legend>
+              <select name="languages" multiple size="6" style="border-style: dotted; border-color: red;">
+                <option value="pascal">Pascal</option>
+                <option value="c">C</option>
+                <option value="cpp">C++</option>
+                <option value="javascript">JavaScript</option>
+                <option value="php">PHP</option>
+                <option value="python">Python</option>
+                <option value="java">Java</option>
+                <option value="haskel">Haskel</option>
+                <option value="clojure">Clojure</option>
+                <option value="prolog">Prolog</option>
+                <option value="scala">Scala</option>
+              </select>
+              <p>
+                <small class="lead text-muted"
+                  >Для множественного выбора используйте Ctrl+клик (Cmd+клик на
+                  Mac)</small
+                >
+              </p>
+            </fieldset>
+
+            <fieldset>
+              <legend>Биография</legend>
+              <textarea
+              style="border-color: red; border-style: dotted;"
+                name="bio"
+                rows="5"
+                cols="50"
+                placeholder="Расскажите о себе..."
+              ></textarea>
+            </fieldset>
+
+            <label>
+              <input type="checkbox" name="agreement" required/> С контрактом
+              ознакомлен(а)
+            </label>
+
+            <br /><br />
+            <button type="submit" class="lead text" style="border-color: red; border-style: dotted;">Сохранить</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-12 col-md-8 mx-auto">
+          <h2 style="font-size: 100px; color: rgb(201, 172, 134)">Спасибо за просмотр!</h2>
+        </div>
+      </div>
+    </div>
+  </footer>
+</html>
