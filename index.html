@@ -30,7 +30,7 @@
         <!-- этот блок, как положено блочному элементу по умолчанию, займет всю оставшуюся ширину родительского элемента -->
         <ul class="nav-menu">
           <li>
-            <a href="#fragment1" style="color: black">Ссылка 1</a>
+            <a href="#links" style="color: black">Ссылка 1</a>
           </li>
           <li><a href="#table" style="color: black">Ссылка 2</a></li>
           <li><a href="#form" style="color: black">Ссылка 3</a></li>
@@ -38,11 +38,10 @@
         <div class="site-title">
           <h1 style="color: black">Я Пикми</h1>
         </div>
-        <div class="menu-toggle" style="color: black; size: 10px">=</div>
       </nav>
     </header>
     <main class="main">
-      <section class="features">
+      <section id="links">
         <h1 style="color: rgb(77, 31, 133)">
           Маркированный список гиперссылок
         </h1>
@@ -186,60 +185,55 @@
           </p>
         </div>
       </section>
-      <section class="features">
-        <section
-          id="table"
-          style="border-style: dashed; border-color: rgb(244, 21, 144)"
-        >
-          <h2>Таблица</h2>
-          <table style="border-style: dashed; border-color: rgb(244, 21, 144)">
-            <thead>
-              <tr>
-                <th>Колонка 1</th>
-                <th>Колонка 2</th>
-                <th>Колонка 3</th>
-                <th>Колонка 4</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Ячейка 1</td>
-                <td>Ячейка 2</td>
-                <td>Ячейка 3</td>
-                <td>Ячейка 4</td>
-              </tr>
-              <tr>
-                <td>Ячейка 5</td>
-                <td colspan="2">Объединенная ячейка</td>
-                <td>Ячейка 8</td>
-              </tr>
-              <tr>
-                <td>Ячейка 9</td>
-                <td>Ячейка 10</td>
-                <td>Ячейка 11</td>
-                <td rowspan="2">Объединенная вертикально</td>
-              </tr>
-              <tr>
-                <td>Ячейка 13</td>
-                <td>Ячейка 14</td>
-                <td>Ячейка 15</td>
-              </tr>
-              <tr>
-                <td>Ячейка 17</td>
-                <td>Ячейка 18</td>
-                <td colspan="2">Объединенная ячейка</td>
-              </tr>
-              <tr>
-                <td>Ячейка 21</td>
-                <td>Ячейка 22</td>
-                <td>Ячейка 23</td>
-                <td>Ячейка 24</td>
-              </tr>
-            </tbody>
-          </table>
-        </section>
+      <section id="table">
+        <h2>Таблица</h2>
+        <table style="border-style: dashed; border-color: rgb(244, 21, 144)">
+          <thead>
+            <tr>
+              <th>Колонка 1</th>
+              <th>Колонка 2</th>
+              <th>Колонка 3</th>
+              <th>Колонка 4</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Ячейка 1</td>
+              <td>Ячейка 2</td>
+              <td>Ячейка 3</td>
+              <td>Ячейка 4</td>
+            </tr>
+            <tr>
+              <td>Ячейка 5</td>
+              <td colspan="2">Объединенная ячейка</td>
+              <td>Ячейка 8</td>
+            </tr>
+            <tr>
+              <td>Ячейка 9</td>
+              <td>Ячейка 10</td>
+              <td>Ячейка 11</td>
+              <td rowspan="2">Объединенная вертикально</td>
+            </tr>
+            <tr>
+              <td>Ячейка 13</td>
+              <td>Ячейка 14</td>
+              <td>Ячейка 15</td>
+            </tr>
+            <tr>
+              <td>Ячейка 17</td>
+              <td>Ячейка 18</td>
+              <td colspan="2">Объединенная ячейка</td>
+            </tr>
+            <tr>
+              <td>Ячейка 21</td>
+              <td>Ячейка 22</td>
+              <td>Ячейка 23</td>
+              <td>Ячейка 24</td>
+            </tr>
+          </tbody>
+        </table>
       </section>
-      <section id="form" class="features">
+      <section id="form">
         <h2 style="color: rgb(77, 31, 133)" id="form">Форма</h2>
         <form action="#" method="post">
           <fieldset>
